@@ -19,3 +19,10 @@ __pycache__
 tools/clojure/.lein*
 
 *.pyc
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl

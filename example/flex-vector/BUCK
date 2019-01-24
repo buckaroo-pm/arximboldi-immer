@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'flex-vector',
+  srcs = [
+    'flex-vector.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)

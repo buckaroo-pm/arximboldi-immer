@@ -1,0 +1,89 @@
+cxx_binary(
+  name = 'fizzbuzz',
+  srcs = [
+    'fizzbuzz.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'gc',
+  srcs = [
+    'gc.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'intro',
+  srcs = [
+    'intro.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'iota-move',
+  srcs = [
+    'iota-move.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'iota-slow',
+  srcs = [
+    'iota-slow.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'iota-transient-std',
+  srcs = [
+    'iota-transient-std.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'iota-transient',
+  srcs = [
+    'iota-transient.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'move',
+  srcs = [
+    'move.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
+
+cxx_binary(
+  name = 'vector',
+  srcs = [
+    'vector.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)

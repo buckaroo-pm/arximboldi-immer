@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'set',
+  srcs = [
+    'intro.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)

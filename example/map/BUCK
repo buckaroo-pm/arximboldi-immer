@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'map',
+  srcs = [
+    'intro.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)

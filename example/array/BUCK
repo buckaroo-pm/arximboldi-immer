@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'array',
+  srcs = [
+    'array.cpp',
+  ],
+  deps = [
+    '//:immer',
+  ],
+)
